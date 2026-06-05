@@ -15,6 +15,9 @@ def potencia():
 
 def raiz():
     print("Raiz")
+    n=int(input("Ingrese numero"))
+    print(f"resultado: {n**0.5}")
+
 
 def mod():
     print("MOD")
