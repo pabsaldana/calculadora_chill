@@ -45,6 +45,6 @@ elif opcion==6:
 elif opcion==7:
     mod()
 elif opcion==0:
-    print("Salir")
+    print(f"Salir de la hermosa calculadora")
 else:
     print("Opcion no encontrada")
