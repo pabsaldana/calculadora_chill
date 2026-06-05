@@ -7,6 +7,9 @@ def sumar():
     print(f"El resultado de {num1} + {num2} es: {resultado}")
 
 def restar():
+    num1=int(input("ingrese su primer numero: "))
+    num2=int(input("Ingrese su segundo numero: "))
+    print(f"El resultado de la resta es {num1-num2}")
 
 def dividir():
     print("Dividir")
