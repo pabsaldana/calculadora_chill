@@ -10,6 +10,10 @@ def restar():
 
 def dividir():
     print("Dividir")
+    a=float(input("Ingresa el primer numero: "))
+    b=float(input("Ingresa el segundo numero: "))
+    print(f"resultado: {a/b}")
+
 
 def multiplicar():
     print("Multiplicar")
