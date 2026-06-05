@@ -14,9 +14,11 @@ def dividir():
 def multiplicar():
     print("Multiplicar")
 
-def potencia():
-    print("Potencia")
-
+def potencia(a,  b):
+    base = a
+    for i in range(b -1):
+        base *= a
+    print(f"Resultado = {base}")
 def raiz():
     print("Raiz")
 
@@ -56,7 +58,9 @@ elif opcion==3:
 elif opcion==4:
     multiplicar()
 elif opcion==5:
-    potencia()
+    a = int(input("Ingresa la base"))
+    b = int(input("Ingresa la potencia"))
+    potencia(a,b)
 elif opcion==6:
     raiz()
 elif opcion==7:
