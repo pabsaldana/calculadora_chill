@@ -18,6 +18,12 @@ def raiz():
 
 def mod():
     print("MOD")
+    try:
+        num1=int(input("Ingrese el pimer número"))
+        num2=int(input("Ingrese el sgundo número"))
+        print(f"El resultado de {num1} mod {num2} es: {num1%num2}")
+    except ValueError:
+        print("Por favor, ingrese números válidos.")
 
 print("Welcome to my calculator")
 print("1) Sumar")
